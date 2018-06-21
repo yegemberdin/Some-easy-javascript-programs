@@ -1,0 +1,11 @@
+
+function checkPalindrome(string) {
+    if (string == string.split('').reverse().join('')) {
+        console.log(string + ' is palindrome.');
+    }
+    else {
+        console.log(string + ' is not palindrome.');
+    }
+  return checkPalindrome;
+}
+checkPalindrome("kazak");

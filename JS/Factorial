@@ -1,0 +1,16 @@
+
+
+
+function Factorial(num) { 
+
+  var result = 1;
+
+  for (var i = 1; i <= num; i++) {  
+ 
+    factorial *= i;
+  }
+
+    return result;
+         
+}
+console.log(Factorial(6)); 

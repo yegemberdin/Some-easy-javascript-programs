@@ -1,0 +1,12 @@
+
+function largeInteger(int1, int2)
+{
+  if (int1 > int2) {
+    console.log(int1);
+  }else{
+    console.log(int2);
+  }
+  return largeInteger;
+}
+
+largeInteger(5, 7);

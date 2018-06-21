@@ -1,0 +1,13 @@
+
+console.log("    *");
+var ast = [],
+i, j = 4;
+for (i = 0; i < j; i++) {
+  ast[i] = new Array(j - i).join(' ') + new Array(i + 2).join("*") + new Array(i + 2).join("*");
+  console.log(ast[i]);
+}
+for (i = j-1; i >=0; i--) {
+  ast[i] = new Array(j - i).join(' ') + new Array(i + 2).join("*") + new Array(i + 2).join("*");
+  console.log(ast[i]);
+}
+console.log("    *");
